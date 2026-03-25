@@ -3,6 +3,12 @@
 A Python script to list users who have **actively logged in** to your [Splunk Observability Cloud](https://www.splunk.com/en_us/products/observability.html) (O11y Cloud) org within a given time window.
 
 ---
+## Usage
+
+```bash
+python3 get-active-users.py --realm <realm> --token <token> --duration <duration>
+```
+---
 
 ## How it works
 
@@ -32,12 +38,6 @@ python3 -m pip install -r requirements.txt
 ```
 
 ---
-
-## Usage
-
-```bash
-python3 get-active-users.py --realm <realm> --token <token> --duration <duration>
-```
 
 ### Arguments
 
